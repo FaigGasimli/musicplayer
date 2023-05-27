@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <title>SabzLearn | Js | 177</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="music">
+        <div class="image">
+            <img src="" alt="" id="album">
+        </div>
+        <div class="music-name">
+            <h1 id="musicname"></h1>
+            <span id="artist"></span>
+        </div>
+
+        <div class="inputs">
+            <input type="range" id="range" value="0">
+           <div class="timer">
+            <span id="time"></span>
+            <span id="time1"></span>
+           </div>
+            <audio id="music">
+                <source src="">
+            </audio>
+        </div>
+        <div class="buttons">
+            <span id="left"><i class="fa-solid fa-backward"></i></span>
+            <div class="btn">
+                <span id="play"><i class="fa-solid fa-play"></i></span>
+                <span id="pause"><i class="fa-solid fa-pause"></i></span>
+            </div>
+            <span id="right"><i class="fa-solid fa-forward"></i></span>
+
+        </div>
+        <div class="music-vol">
+            <span id="volume_x"><i class="fa-solid fa-volume-xmark"></i></span>
+            <input type="range" min="0" max="10" id="volume_range" value="10">
+            <span id="volume"><i class="fa-solid fa-volume-high"></i></span>
+         </div>
+        
+
+    </div>
+
+    
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
